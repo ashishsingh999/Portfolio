@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: rgba(240, 237, 233, 0.853);
+  width: 434px;
+  font-family: "Oswald", sans-serif;
+  height: 100vh;
+}
+.sidebar nav {
+  padding: 50px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  display: flex;
+}
+.main {
+  width: 80vw;
+}
+
+.infoContainer {
+  height: 30vh;
+  width: auto;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Source Serif Pro", serif;
+  flex-direction: row;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: auto;
+}
+.hello {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+.about {
+  font-size: 40px;
+}
+.buttons {
+  margin-top: 15px;
+}
+.btn {
+  padding: 5px 10px;
+  border-radius: 22px 22px;
+  color: white;
+  background-color: rgb(65, 145, 229);
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0px 3px;
+  cursor: pointer;
+  border-color: black;
+}
+.btn:hover {
+  background-color: white;
+  color: rgb(65, 145, 229);
+}
+
+.devPic img {
+  width: 381px;
+  height: 40vh;
+}
+.introduction {
+  margin: 80px 30px;
+  border-radius: 30px;
+  padding: 10px 15px;
+  width: auto;
+  height: max-content;
+
+  justify-content: space-around;
+}
+.introduction h2 {
+  margin: 10px 0;
+  font-weight: bolder;
+}
+
+.contactForm {
+  font-family: "Oswald", sans-serif;
+  padding: 144px 56px;
+}
+.contactForm form div {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.contactForm h1 {
+  font-family: "Source Serif Pro", serif;
+  padding: 12px 0;
+}
+#emailHelp {
+  font-size: 15px;
+  color: midnightblue;
+  margin-top: 10px;
+}
+.contactForm div input {
+  width: 16vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+#visitorEnquiry {
+  height: 15vh;
+  width: 30vw;
+}
+.blogInfo {
+  margin: 12px 5px;
+  font-family: "Oswald", sans-serif;
+}
+.blogInfo button {
+  margin: 5px -2px;
+}
+.blogContainer h1 {
+  font-family: "Source Serif Pro", serif;
+  text-align: center;
+  margin: 15px;
+}
+.introContainer {
+  font-family: "Source Serif Pro", serif;
+  margin: 10px 12px;
+}
+
+.skillContainer {
+  padding: 12px;
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+}
+.skills {
+  width: 263px;
+  height: 12px;
+  background-color: red;
+  border: 2px solid black;
+}
+.hundred {
+  width: 265px;
+  background-color: aqua;
+}
+.fifty {
+  width: 125px;
+  background-color: blue;
+}
+.t5 {
+  width: 75px;
+  background-color: blueviolet;
+}
